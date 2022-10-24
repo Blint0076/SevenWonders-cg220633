@@ -10,22 +10,16 @@ import {
 import PostContainer from './PostContainer';
 import PhotoViewer from './PhotoViewer';
 
-const image1 = require('./images/chichen.png');
-const image2 = require('./images/colosseum.png');
-const image3 = require('./images/machu.png');
-const image4 = require('./images/petra.png');
-const image5 = require('./images/redeemer.png');
-const image6 = require('./images/taj.png');
-const image7 = require('./images/wall.png');
+const image1 = require('./images/01.jpg');
+const image2 = require('./images/02.jpg');
+const image3 = require('./images/03.jpg');
+const image4 = require('./images/04.jpg');
 
 const timeline = [
-  { title: 'Mayan Ruins, Chichen Itza', image: image1 },
-  { title: 'Roman Colosseum', image: image2 },
-  { title: 'Incan Ruins, Machu Piccu', image: image3 },
-  { title: 'Petra Ruins, Jordan', image: image4 },
-  { title: 'Christ the Redeemer', image: image5 },
-  { title: 'Taj Mahal, Agra India', image: image6 },
-  { title: 'The Great Wall of China', image: image7 },
+  { title: 'Enjoying the fireworks', image: image1 },
+  { title: 'Climbing Mount Fuji', image: image2 },
+  { title: 'Check my last picture', image:  image3 },
+  { title: 'Sakuras are beautiful!', image: image4 },
 ];
 
 export default class App extends Component {
@@ -65,7 +59,7 @@ export default class App extends Component {
   render() {
     return (
       <SafeAreaView style={styles.main}>
-        <Text style={styles.toolbar}>Seven Wonders of the World</Text>
+        <Text style={styles.toolbar}>Timeline</Text>
         <ScrollView style={styles.content}>
         {
           timeline.map((post, index) =>

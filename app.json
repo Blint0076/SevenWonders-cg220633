@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "photo-viewer",
-    "slug": "photo-viewer",
+    "name": "seven-wonders",
+    "slug": "seven-wonders-cg220633",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/sevenSplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
